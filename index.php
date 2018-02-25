@@ -23,8 +23,9 @@
 
   <?php
 
-  $greeting = 'Amberol Red Record';
-    echo  greeting;
+  $name = $_GET['name'];
+
+    echo  "Hello, $name";
   ?>
 
   </h1>
