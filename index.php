@@ -1,5 +1,34 @@
-<?php
+<html lang="en">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Eddison</title>
+    <style>
 
-$greeting = 'Constructs.';
+      header {
 
-echo 'The name of this section is: ' . $greeting;
+        background: #d84818;
+        padding: 1em;
+        text-align: center;
+
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <header>
+
+<h1>
+
+  <?php
+
+  $greeting = 'Amberol Red Record';
+    echo  greeting;
+  ?>
+
+  </h1>
+
+    </header>
+  </body>
+</html>
