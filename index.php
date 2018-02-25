@@ -1,5 +1,5 @@
 <?php
 
-$greeting = 'Constructs in the application.';
+$greeting = 'Constructs.';
 
 echo 'The name of this section is: ' . $greeting;
