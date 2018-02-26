@@ -1,30 +1,8 @@
-<html lang="en">
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Edison</title>
-    <style>
+<?php
 
-      header {
+$greeting = "This is Edison";
 
-        background: #d84818;
-        padding: 1em;
-        text-align: center;
+require 'index.view.php';
 
-      }
-    </style>
 
-  </head>
-
-  <body>
-    <header>
-
-  <h1>
-
-  <?= "Hello, " . htmlspecialchars($_GET['name']); ?>
-
-  </h1>
-
-    </header>
-  </body>
-</html>
+ ?>
