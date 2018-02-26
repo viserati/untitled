@@ -1,32 +1,27 @@
 <html lang="en">
 <html>
   <head>
+
     <meta charset="utf-8">
     <title>Edison</title>
-    <style>
-
-      header {
-
-        background: #d84818;
-        padding: 1em;
-        text-align: center;
-
-      }
-    </style>
 
   </head>
 
   <body>
-    <header>
 
-  <h1>
+<h1>Task for the Day</h1>
 
-    <?=
-    
-    ?>
 
-  </h1>
+<ul>
 
-    </header>
+
+    <?php foreach ($task as $heading => $value) : ?>
+<li>
+      <strong><?= $heading; ?></strong> <?= $value; ?>
+</li>
+
+<?php endforeach; ?>
+
+</ul>
   </body>
 </html>

@@ -1,9 +1,13 @@
 <?php
 
-$names = ['Executive  ' , 'Legislative  ', 'Judicial'];
+$task = [
 
-foreach ($names as $name) {
+  'title:  ' => 'Finish Homework',
+  'due:  ' => 'Today',
+  'assigned_to:  ' => 'Paulina',
+  'completed:  ' => true
 
-  echo $name;
-}
+];
+
+require "index.view.php"
  ?>
