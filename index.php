@@ -1,8 +1,9 @@
 <?php
 
-$greeting = "This is Edison";
+$names = ['Executive  ' , 'Legislative  ', 'Judicial'];
 
-require 'index.view.php';
+foreach ($names as $name) {
 
-
+  echo $name;
+}
  ?>
