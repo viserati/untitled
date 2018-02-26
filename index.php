@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Eddison</title>
+    <title>Edison</title>
     <style>
 
       header {
