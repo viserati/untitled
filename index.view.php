@@ -17,7 +17,7 @@
 
     <?php foreach ($task as $heading => $value) : ?>
 <li>
-      <strong><?= $heading; ?></strong> <?= $value; ?>
+      <strong><?= ucwords($heading); ?></strong> <?= $value; ?>
 </li>
 
 <?php endforeach; ?>
