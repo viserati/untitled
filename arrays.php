@@ -21,7 +21,7 @@ $cars = array('Dodge' => 'Viper', 'Chevrolet' => 'Camero', 'Ford' => 'Mustang');
 
 echo '<dl><dt>Original Element Order :<dd>';
 foreach($cars as $key => $value)
-{echo '&bull;' , $key. '' .$value;}
+{echo '&bull;' , $key. ' ' .$value;}
 
 asort($cars);
 
