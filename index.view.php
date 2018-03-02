@@ -11,17 +11,5 @@
 
 <h1>Task for the Day</h1>
 
-
-<ul>
-
-
-    <?php foreach ($task as $heading => $value) : ?>
-<li>
-      <strong><?= ucwords($heading); ?></strong> <?= $value; ?>
-</li>
-
-<?php endforeach; ?>
-
-</ul>
   </body>
 </html>

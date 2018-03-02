@@ -4,12 +4,11 @@
 
 try {
 
-    $dbh = new PDO('mysql:host=192.168.0.34;dbname=vvvvv', 'root', 'sssss');
-
+    $db = new PDO("mysql:host=$localhost;dbname=$mytodo", 'root', 'Ed1s0n');
+    $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
 
-    die($e->getMessage());
-
+    echo $e->getMessage();
+    exit;
 }
-
-require 'index.view.php';
+var_dump($db);
