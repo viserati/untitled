@@ -1,6 +1,6 @@
 <?php
 
-# This is the php connection to the mysql database.
+# This is the php connection to the mysql database.  [TEST FIRST]
 
 try {
 
