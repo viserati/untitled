@@ -32,6 +32,5 @@ class Task {
 var_dump($task->isComplete());
 
 
-re
 
  ?>
